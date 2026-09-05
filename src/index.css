@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #fffaf2;
+  --color-ink: #2f2a25;
+  --color-coral: #b7a99a;
+  --color-sage: #e7dfd5;
+  --font-sans: "DM Sans", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+}
+
+:root {
+  font-family: "DM Sans", sans-serif;
+  color: #2f2a25;
+  background: #f5f0e8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+}
+.eyebrow {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.nav-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgb(47 42 37 / 0.7);
+  transition: color 0.2s;
+}
+.nav-link:hover {
+  color: #806f61;
+}
+.icon-link {
+  display: inline-flex;
+  height: 36px;
+  width: 36px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(23 35 32 / 0.3);
+  border-radius: 999px;
+  transition:
+    background 0.2s,
+    color 0.2s;
+}
+.icon-link:hover {
+  background: #2f2a25;
+  color: #fffaf2;
+}
+.animate-rise {
+  animation: rise 0.7s both;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Simple beginner-style presentation */
+.amateur {
+  background: #f5f0e8;
+  color: #2f2a25;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.amateur .font-display {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.amateur h1,
+.amateur h2,
+.amateur h3 {
+  letter-spacing: normal;
+}
+.amateur h1 {
+  font-size: 4rem;
+  line-height: 1.1;
+}
+.amateur h2 {
+  color: #403831;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+.amateur h3 {
+  color: #403831;
+}
+.amateur #work h2 {
+  color: #fffaf2;
+}
+.amateur #work .text-coral {
+  color: #d8cabb;
+}
+.amateur .text-coral {
+  color: #5f5146;
+}
+.amateur .bg-coral {
+  background: #d8cabb;
+}
+.amateur .bg-sage {
+  background: #e7dfd5;
+}
+.amateur .bg-ink {
+  background: #3a342f;
+  color: #fffaf2;
+}
+.amateur .text-paper {
+  color: #fffaf2;
+}
+.amateur .border-coral {
+  border-color: #5f5146;
+}
+.amateur .text-ink\/70,
+.amateur .text-ink\/65,
+.amateur .text-ink\/60,
+.amateur .text-ink\/50 {
+  color: #5b5047;
+}
+.amateur .text-paper\/70,
+.amateur .text-paper\/65,
+.amateur .text-paper\/60,
+.amateur .text-paper\/50 {
+  color: #e4d9cc;
+}
+.amateur .animate-rise {
+  animation: none;
+}
+.amateur #work article {
+  border: 1px solid #a99a8b;
+}
+.amateur .icon-link {
+  border-radius: 4px;
+}
