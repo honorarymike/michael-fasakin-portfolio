@@ -240,6 +240,38 @@ function App() {
               </a>
             </div>
           </article>
+          <article className="mt-8 grid overflow-hidden border border-paper/20 bg-sage text-ink md:grid-cols-[.9fr_1.1fr]">
+            <div className="flex min-h-70 flex-col justify-between bg-coral p-7">
+              <span className="font-display text-7xl font-bold text-ink/15">02</span>
+              <div>
+                <p className="eyebrow text-ink/60">React portfolio / 2026</p>
+                <h3 className="font-display mt-3 text-4xl font-bold leading-none tracking-tighter">
+                  Michael Fasakin<br />Portfolio
+                </h3>
+              </div>
+            </div>
+            <div className="flex flex-col justify-between gap-10 p-7 md:p-10">
+              <div>
+                <p className="max-w-md text-xl leading-relaxed">
+                  A responsive personal portfolio built to share my experience,
+                  projects, skills, and goals.
+                </p>
+                <ul className="mt-8 space-y-3 text-sm text-ink/65">
+                  <li>↳ React and TypeScript</li>
+                  <li>↳ Tailwind CSS styling</li>
+                  <li>↳ Deployed with Vercel</li>
+                </ul>
+              </div>
+              <div className="flex flex-wrap gap-5 text-sm font-bold">
+                <a className="border-b border-ink pb-1" href="https://michael-fasakin-portfolio.vercel.app" target="_blank" rel="noreferrer">
+                  View live site -&gt;
+                </a>
+                <a className="border-b border-ink pb-1" href="https://github.com/honorarymike/michael-fasakin-portfolio" target="_blank" rel="noreferrer">
+                  View code -&gt;
+                </a>
+              </div>
+            </div>
+          </article>
         </div>
       </section>
 
